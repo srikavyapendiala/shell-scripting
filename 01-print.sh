@@ -2,4 +2,4 @@
 
 echo "kavya"
 
-echo "kavya\nsri\npendyala"
+echo -e "kavya\nsri\npendyala"
