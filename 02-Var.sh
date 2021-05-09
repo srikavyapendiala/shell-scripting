@@ -2,4 +2,4 @@
 
 a = 10
 
-echo Z = $a
+echo Z =$a
