@@ -3,6 +3,6 @@
 a=10
 echo Z = $a
 
-EXPR=$((22*21/0+6))
-echo value = $EXPR
+EXPR=$((22*21/10+6))
+echo value=$EXPR
 
