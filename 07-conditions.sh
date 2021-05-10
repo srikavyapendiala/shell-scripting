@@ -1,7 +1,7 @@
 #!/bin/bash
-a=1
-b=1
-if ("a" == "b");
+abc=1
+ABC=1
+if ("abc" == "ABC");
 then
   printf "kavya"
 fi
