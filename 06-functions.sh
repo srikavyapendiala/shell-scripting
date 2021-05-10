@@ -1,11 +1,11 @@
 #!/bin/bash
 
-fuction kavya() {
+fuction sample1() {
   echo welcome from Function1
 }
-kavyasri() {
+sample2() {
   echo warm greetings from Function2
 }
 
-kavya
-kavyasri
+sample1
+saample2
