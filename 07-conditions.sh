@@ -2,5 +2,5 @@
 
 if ("abc" == "abc");
 then
-  print "kavya"
+  printf "kavya"
 fi
