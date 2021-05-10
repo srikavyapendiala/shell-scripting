@@ -1,6 +1,7 @@
 #!/bin/bash
-
-if ("abc" == "abc");
+a=1
+b=1
+if (a == b);
 then
   printf "kavya"
 fi
