@@ -2,5 +2,5 @@
 
 for laptopname in macbook dell hp lenovo ;
 echo laptopname = $laptopname
-sleep1
+sleep 1
 done
