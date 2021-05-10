@@ -1,12 +1,12 @@
 #!/bin/bash
 
 fuction kavya() {
-  echo welcome from function1
+  echo welcome from Function1
 }
 kavya1()
 {
-  echo warm greetings from function2
+  echo warm greetings from Function2
 }
 
-kavya()
-kavya1()
+kavya
+kavya1
