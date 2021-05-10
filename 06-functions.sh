@@ -1,6 +1,6 @@
 #!/bin/bash
 
-fuction kavya(){
+fuction kavya() {
   echo welcome from function1
 }
 kavya1()
