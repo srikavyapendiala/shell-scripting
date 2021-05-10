@@ -1,10 +1,10 @@
 #!/bin/bash
 
 function kavya() {
-  echo welcome from Function1
+  echo welcome
 }
 sri() {
-  echo warm greetings from Function2
+  echo warm greetings
 }
 
 kavya
