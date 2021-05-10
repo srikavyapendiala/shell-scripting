@@ -3,9 +3,9 @@
 fuction kavya() {
   echo welcome from Function1
 }
-kavya1() {
+kavyasri() {
   echo warm greetings from Function2
 }
 
 kavya
-kavya1
+kavyasri
