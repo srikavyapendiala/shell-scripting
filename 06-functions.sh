@@ -1,6 +1,6 @@
 #!/bin/bash
 
-fuction sample1() {
+function sample1() {
   echo welcome from Function1
 }
 sample2() {
