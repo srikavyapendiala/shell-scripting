@@ -6,7 +6,7 @@ fuction kavya()
 }
 kavya1()
 {
-  echo warm greetings
+  echo warm greetings from fuction2
 }
 
 kavya()
