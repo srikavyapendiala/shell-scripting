@@ -8,4 +8,4 @@ sample2() {
 }
 
 sample1
-saample2
+sample2
