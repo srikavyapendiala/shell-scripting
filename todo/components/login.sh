@@ -22,15 +22,12 @@ STAT $?
 GIT_CLONE
 STAT $?
 
-Head "Export go path in directory"
-export GOPATH=/go
-go get github.com/dgrijalva/jwt-go
-go get github.com/labstack/echo
-go get github.com/labstack/echo/middleware
-go get github.com/labstack/gommon/log
-go get github.com/openzipkin/zipkin-go
-go get github.com/openzipkin/zipkin-go/middleware/http
-go get  github.com/openzipkin/zipkin-go/reporter/http
+Head " Build the Source-code"
+export GOPATH=~/go &>>$LOG
+depmod && apt install go-dep &>>$LOG
+cd login
+dep ensure && go get &>>$LOG && go build &>>$LOG
+Stat $?
 
 Head "Build"
 go build &>>"${LOG}"
@@ -38,6 +35,7 @@ STAT $?
 
 Head "Create login service file"
 mv systemd.service /etc/systemd/system/login.service
+
 
 Head "Start login service"
 systemctl daemon-reload && systemctl start login && systemctl status login

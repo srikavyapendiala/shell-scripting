@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="966be4f3-ed4c-419b-aa12-15a4a0f8399a" name="Default Changelist" comment="#1 create component files &amp; common.sh file">
-      <change beforePath="$PROJECT_DIR$/todo/components/frontend.sh" beforeDir="false" afterPath="$PROJECT_DIR$/todo/components/frontend.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo/components/login.sh" beforeDir="false" afterPath="$PROJECT_DIR$/todo/components/login.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,20 +42,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1620022043203</updated>
-    </task>
-    <task id="LOCAL-00001" summary="#1 create component files &amp; common.sh file">
-      <created>1620025918916</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1620025918916</updated>
-    </task>
-    <task id="LOCAL-00002" summary="#1 create component files &amp; common.sh file">
-      <created>1620026337224</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1620026337224</updated>
     </task>
     <task id="LOCAL-00003" summary="#1 create component files &amp; common.sh file">
       <created>1620026845843</created>
@@ -385,7 +372,21 @@
       <option name="project" value="LOCAL" />
       <updated>1620725346512</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="#1 create component files &amp; common.sh file">
+      <created>1620725648106</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1620725648107</updated>
+    </task>
+    <task id="LOCAL-00051" summary="#1 create component files &amp; common.sh file">
+      <created>1620725901522</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1620725901522</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
