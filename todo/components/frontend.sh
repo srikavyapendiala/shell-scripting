@@ -25,6 +25,10 @@ HEAD "Clone code from Github"
 GIT_CLONE
 STAT $?
 
+HEAD "Switch to frontend Directory"
+cd frontend
+STAT $?
+
 HEAD "Install Npm"
 npm install >>"${LOG}"
 STAT $?
