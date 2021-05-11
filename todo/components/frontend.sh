@@ -25,7 +25,7 @@ STAT $?
 #fi
 
 HEAD "make todo directory and switch"
-mkdir -p todo && cd todo || exit
+cd todo || exit
 STAT $?
 
 HEAD "Clone code from Github"
