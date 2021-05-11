@@ -14,11 +14,11 @@ NPM
 STAT $?
 
 HEAD "switch to html directory"
-cd /var/www/html || exit
+cd /var/www/html
 STAT $?
 
 HEAD "make todo directory and switch"
-cd todo || exit
+mkdir todo && cd todo
 STAT $?
 
 HEAD "Clone code from Github"

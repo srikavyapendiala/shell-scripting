@@ -34,7 +34,7 @@ go build &>>"${LOG}"
 STAT $?
 
 Head "Create login service file"
-mv systemd.service /etc/systemd/system/login.service
+mv /root/shell-scripting-todo/todo/todo/systemd.service /etc/systemd/system/login.service
 
 
 Head "Start login service"
