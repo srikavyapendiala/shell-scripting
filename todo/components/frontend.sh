@@ -13,12 +13,12 @@ HEAD "Install Node & Nginx"
 NPM
 STAT $?
 
-HEAD "switch to html directory"
-cd /var/www/html && mkdir vue
+HEAD "switch to html directory "
+cd /var/www/html
 STAT $?
 
-HEAD "make todo directory and switch"
-cd vue
+HEAD "switch to vue directory"
+mkdir vue && cd vue
 STAT $?
 
 HEAD "Clone code from Github"

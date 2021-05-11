@@ -25,7 +25,6 @@ BUILD(){
 
 GIT_CLONE(){
   git clone "https://github.com/srikavyapendiala/shell-scripting-todo.git/${COMPONENT}.git" &>>"${LOG}"
-
 }
 
 REPEAT(){
