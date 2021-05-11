@@ -14,11 +14,11 @@ NPM
 STAT $?
 
 HEAD "switch to html directory"
-cd /var/www/html
+cd /var/www/html && mkdir vue
 STAT $?
 
 HEAD "make todo directory and switch"
-mkdir todo && cd todo
+cd vue
 STAT $?
 
 HEAD "Clone code from Github"
@@ -38,7 +38,7 @@ BUILD
 STAT $?
 
 HEAD "Change root path in nginx"
-sed -i -e 's+root /var/www/html+root /var/www/html/todo/frontend/dist+g' /etc/nginx/sites-available/default
+sed -i -e 's+root /var/www/html+root /var/www/html/vue/frontend/dist+g' /etc/nginx/sites-available/default
 STAT $?
 
 HEAD "Restart Nginx"
