@@ -1,4 +1,6 @@
 #!/bin/bash
+LOG=/tmp/"${COMPONENT}".log
+rm -rf "$(LOG)"
 HEAD(){
   echo -e "\e[1;36m =============================$1===================\e[0m"
   echo -e "\e[1;36m =============================$1===================\e[0m" >>"${LOG}"
@@ -14,9 +16,12 @@ STAT(){
 NPM(){
   apt install npm -y >>"${LOG}"
 }
+BUILD(){
+  npm run build >>"${LOG}"
+}
 GIT_CLONE(){
-  git clone "https://github.com/zelar-soft-todoapp/${COMPONENT}.git"  >>"${LOG}"
-  cd "${COMPONENT}" || exit
+  git clone "https://github.com/chandra-zs/${COMPONENT}.git" &>>"${LOG}"
+  cd "${COMPONENT}" ||  exit
 }
 REPEAT(){
   set-hostname "${COMPONENT}"
