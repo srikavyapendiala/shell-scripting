@@ -47,11 +47,6 @@ cd /etc/nginx/sites-available || exit
 sed -i -e 's+root /var/www/html+root /var/www/html/todo/frontend/dist+g' /etc/nginx/sites-available/default
 STAT $?
 
-HEAD "Update index.js File With Todo & Login Ip"
-cd /var/www/html/todo/frontend && cd config || exit
-vi index.js
-STAT $?
-
 HEAD "Restart Nginx"
 systemctl restart nginx
 STAT $?
