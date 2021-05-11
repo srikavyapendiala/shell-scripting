@@ -38,12 +38,9 @@ STAT $?
 
 HEAD "Run build"
 BUILD
-killall node >>"${LOG}"
-BUILD
 STAT $?
 
 HEAD "Change root path in nginx"
-cd /etc/nginx/sites-available || exit
 sed -i -e 's+root /var/www/html+root /var/www/html/todo/frontend/dist+g' /etc/nginx/sites-available/default
 STAT $?
 
